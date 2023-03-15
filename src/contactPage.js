@@ -3,8 +3,8 @@ const contactPage = () => {
 
     const title = document.createElement('h2');
     title.textContent = `Contact`;    
+    title.classList.add('pageTitle');
     currentPage.appendChild(title);
-    title.style = 'color: red; font-size: 3rem'
 
     const description = document.createElement('p');
     description.textContent = `We would love to hear from you! Get ahold of us to inquire about catering, reservations or just to say hi!`;

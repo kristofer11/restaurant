@@ -3,8 +3,8 @@ const menuPage = () => {
 
     const title = document.createElement('h2');
     title.textContent = `Menu`;    
+    title.classList.add('pageTitle')  
     currentPage.appendChild(title);
-    title.style = 'color: red; font-size: 3rem'
 
     const description = document.createElement('p');
     description.textContent = `Here is our menu. It doesn't make much sense, but that's the beauty of it!`

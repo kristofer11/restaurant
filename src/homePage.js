@@ -2,9 +2,9 @@ const homePage = () => {
     const currentPage = document.querySelector('#currentPage');
 
     const title = document.createElement('h2');
-    title.textContent = `Big Daddy's BBQ!`;    
+    title.textContent = `Big Daddy's BBQ!`;  
+    title.classList.add('pageTitle')    
     currentPage.appendChild(title);
-    title.style = 'color: red; font-size: 3rem'
 
     const description = document.createElement('p');
     description.textContent = `Holy cow, this BBQ is good. Don't take our word for it, check out the reviews on our About Page.`
