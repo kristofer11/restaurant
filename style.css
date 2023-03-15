@@ -1,0 +1,46 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cornsilk
+}
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.navContainer {
+    display: flex;
+    gap: 10px;
+    padding: 22px;
+    width: 100vw;
+    flex-direction: row-reverse;
+}
+
+.tab {
+    background-color: grey;
+    height: fit-content;
+    padding: 22px;
+    border: 2px solid black;
+    border-top-left-radius: 14%;
+}
+
+img {
+    overflow: hidden;
+    border-radius: 11%;
+}
+
+.tab:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.05)
+}
