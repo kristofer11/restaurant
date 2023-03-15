@@ -70,6 +70,10 @@ img {
     border-radius: 11%;
 }
 
+li {
+    list-style: none
+}
+
 .tab:hover {
     background-color: blue;
     cursor: pointer;
